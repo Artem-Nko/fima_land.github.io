@@ -1,0 +1,21 @@
+.fastest {
+  margin: 0 0 230px 0;
+}
+
+.fastest__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+}
+
+.fastest__left {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.fastest .title,
+.fastest .text {
+  text-align: start;
+}
