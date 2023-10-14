@@ -1,11 +1,12 @@
 .fastest {
-  margin: 0 0 230px 0;
+  margin-bottom: clamp(60px, 14%, 230px);
 }
 
 .fastest__wrapper {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  flex-direction: column;
+  /* justify-content: space-between; */
+  /* align-items: center; */
   gap: 50px;
 }
 
@@ -17,5 +18,22 @@
 
 .fastest .title,
 .fastest .text {
-  text-align: start;
+  /* text-align: start; */
+  text-align: center;
+}
+
+.fastest br {
+  display: none;
+}
+
+.fastest .title {
+  font-weight: 400;
+}
+
+.fastest .btn {
+  margin: 0 auto 60px auto;
+}
+
+.fastest__right img {
+  width: 100%;
 }
