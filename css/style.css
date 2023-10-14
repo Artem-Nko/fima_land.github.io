@@ -1,10 +1,10 @@
-@import url(./components/normalize.css);
+@import url(./normalize.css);
 @import url(./fonts.css);
-@import url(./components/header.css);
-@import url(./components/feature.css);
-@import url(./components/fastest.css);
-@import url(./components/prototyping.css);
-@import url(./components/partner.css);
+@import url(./header.css);
+@import url(./feature.css);
+@import url(./fastest.css);
+@import url(./prototyping.css);
+@import url(./partner.css);
 
 * {
   box-sizing: border-box;
